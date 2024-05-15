@@ -1,0 +1,57 @@
+/* EmployeeList.css */
+.backdiv{
+ height: 720px;
+ background: rgb(202,255,0);
+background: radial-gradient(circle, rgba(202,255,0,1) -46%, rgba(106,201,194,1) 81%, rgba(101,198,205,1) 88%);
+}
+
+.container {
+    width: 80%;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  tr:hover {
+    background-color: #f2f2f2;
+  }
+  
+  .editbtn {
+background-color: rgb(221, 226, 90);
+  }
+
+  .deletebtn{
+background-color: rgb(250, 170, 170);
+  }
+  
+  .btn-add{
+    background-color: greenyellow;
+  }
